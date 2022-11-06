@@ -1,0 +1,131 @@
+body {
+  background-color: white;
+  font-size: 1.2rem;
+  font-family: "Open Sans", sans-serif;
+  color: #2b3e51;
+}
+
+h2 {
+
+  text-align: center;
+  font-weight: bold;
+}
+label{
+  float: left;
+}
+hr{
+  width: 20%;
+  border: 2px solid #F52354;
+}
+p {
+  position: relative;
+}
+
+a,
+a:link,
+a:visited,
+a:active
+a:hover{
+  color: #F52354;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+a:focus, a:hover,
+a:link:focus,
+a:link:hover,
+a:visited:focus,
+a:visited:hover,
+a:active:focus,
+a:active:hover {
+  color: #F52354;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+#login-form-wrap {
+  background-color: #fff;
+  width: 50%;
+  margin: 30px auto;
+  text-align: center;
+  padding: 20px 0 0 0;
+  border-radius: 4px;
+  box-shadow: 15px 30px 50px 0 rgba(0.2, 0.2, 0.2, 0.2);
+  border-top: solid 10px #F52354;
+
+}
+
+#login-form {
+  padding: 0 60px;
+
+}
+
+input {
+  display: block;
+
+  width: 100%;
+  outline: none;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 4px;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 0 0 0 10px;
+  margin: 0;
+  color: #8a8b8e;
+  border: 1px solid #c2c0ca;
+  font-style: normal;
+  font-size: 16px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  position: relative;
+  display: inline-block;
+  background: none;
+}
+input[type="text"]:focus,
+input[type="email"]:focus {
+  border-color: #FF4A62;
+}
+
+
+button {
+  border: none;
+
+  background-color: #F52354;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  font-size: 15px;
+  position: relative;
+  display: inline-block;
+
+  text-align: center;
+  height: 40px;
+}
+button:hover {
+  background-color: #AC0022;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+#create-account-wrap {
+  background-color: #eeedf1;
+  color: #8a8b8e;
+  font-size: 14px;
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 0 0 4px 4px;
+}
